@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: framingham_heart
+    database: healthcare-hub-436915
+    schema: raw_data
+    tables:
+      - name: framingham_heart_study

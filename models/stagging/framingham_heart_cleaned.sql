@@ -5,4 +5,4 @@
 -- WHERE CIGPDAY = 0
 -- AND CURSMOKE = 1;
 select cigpday, case when cigpday = 0 then 0 else cursmoke end as cursmoke
-from `healthcare-hub-436915.raw_data.framingham_heart_study`
+from {{ source('framingham_heart', 'framingham_heart_study') }}
