@@ -1,0 +1,1 @@
+SELECT 1 AS Col1 , 2 AS Col2
